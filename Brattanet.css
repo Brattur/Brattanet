@@ -34,13 +34,15 @@ body
 .Hliðina-1
 {
     width: 50%;
-    height: 800px;
-    width: 122px;
+
+    float: left;
+
 }
 
 .Hliðina-2
 {
     width: 50%;
+    float: right;
 }
 
 ul
@@ -85,3 +87,11 @@ li a.active
 {
 
 }
+
+.Leikur1
+{
+    width: 30%;
+    height: 20%;
+
+}
+
