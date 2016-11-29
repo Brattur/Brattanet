@@ -1,0 +1,87 @@
+body
+{
+	background-color: #00334d;
+	margin-top: 80px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.contain
+{
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.Logo
+{
+	width: 90px;
+	height: 50px;
+	float: right;
+	-webkit-order: 1;
+  	order: 1; 
+}
+
+.Menu
+{
+   -webkit-order: 2;
+ 	order: 2 ; 
+ 	width: 100%;
+}
+
+.Hliðina-1
+{
+    width: 50%;
+    height: 800px;
+    width: 122px;
+}
+
+.Hliðina-2
+{
+    width: 50%;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #ddd;
+}
+
+li a.active 
+{
+    color: white;
+    background-color: #4CAF50;
+}
+
+.heim
+{
+
+}
