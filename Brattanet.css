@@ -33,6 +33,7 @@ body
 
 .Hliðina-1
 {
+    order: 3;
     width: 50%;
 
     float: left;
@@ -41,8 +42,10 @@ body
 
 .Hliðina-2
 {
+    order: 4;
     width: 50%;
     float: right;
+   
 }
 
 ul
@@ -90,13 +93,24 @@ li a.active
 
 .Leikur1
 {
-    width: 30%;
-    height: 20%;
-
+    order: 1;
+    width: 25%;
+    max-width: 25%;
+    height: auto;
 }
 .Leikur2
 {
-    width: 30%;
-    height: 20%;
+    order: 2;
+    width: 25%;
+    max-width: 25%;
+    height: auto;
+}
+
+.Leikur3
+{
+    order: 3;
+    width: 25%;
+    max-width: 25%;
+    height: auto;
 
 }
