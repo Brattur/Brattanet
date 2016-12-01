@@ -143,3 +143,23 @@ li a.active
 {
 
 }
+
+.auglysing
+{
+
+    width: 190px;
+    height: 490px;
+    float: left;
+    -webkit-order: 1;
+    order: 1; 
+}
+
+.auglysing2
+{
+
+    width: 190px;
+    height: 490px;
+    float: right;
+    -webkit-order: 1;
+    order: 1; 
+}
