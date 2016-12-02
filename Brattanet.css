@@ -163,3 +163,11 @@ li a.active
     -webkit-order: 1;
     order: 1; 
 }
+
+.Form
+{
+    width: 190px;
+    height: 490px;  
+    margin-left: auto;
+    margin-right: auto;
+}
