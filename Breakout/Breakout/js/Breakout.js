@@ -206,5 +206,4 @@ function keyUpHandler(e)
     }
 }
 
-draw();
-requestAnimationFrame(draw);
+setInterval(draw, 10);
