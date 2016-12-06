@@ -1,20 +1,26 @@
-﻿var canvas = document.getElementById('canvas');
+﻿//Leifir teikningu á canvas á html skjali
+var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext("2d");
 
+//Fyrir staðsetningu og hreyfingu á kúlu
 var x = canvas.width / 2;
 var y = canvas.height - 30;
 var dx = 2;
 var dy = -2;
 
+//Stærð kúlunar
 var ballRadius = 10;
 
+//Stærðir á sleða
 var paddleHeight = 10;
 var paddleWidth = 75;
 var paddleX = (canvas.width - paddleWidth) / 2;
 
+//Hreyfingar með tökkum
 var rightPressed = false;
 var leftPressed = false;
 
+//Stærðir og fjöldi kubba
 var brickRowCount = 3;
 var brickColumnCount = 5;
 var brickWidth = 75;
@@ -23,9 +29,11 @@ var brickPadding = 10;
 var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 
+//Stig og líf
 var score = 0;
 var lives = 3;
 
+//Skrifar inn í 2d fylki notað til að staðsetja kubba
 var bricks = [];
 for (c = 0; c < brickColumnCount; c++) {
     bricks[c] = [];
